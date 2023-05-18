@@ -57,9 +57,9 @@ void arithmetic() {
     std::cout << "Вместо a мы получили: " << 'a' + 1 << std::endl;  // 'b'
 
     // Ну и также мы можем сравнивать числа друг с другом
-    std::cout << "Число а больше b? " << a > b << std::endl;             // 0
-    std::cout << "Число а меньше b? " << a < b << std::endl;             // 1
-    std::cout << "Число а больше или равно b? " << a >= b << std::endl;  // 0
-    std::cout << "Числа а и b равны? " << a == b << std::endl;           // 0
-    std::cout << "Числа а и b не равны? " << a != b << std::endl;        // 1
+    std::cout << "Число а больше b? " << (a > b) << std::endl;             // 0
+    std::cout << "Число а меньше b? " << (a < b) << std::endl;             // 1
+    std::cout << "Число а больше или равно b? " << (a >= b) << std::endl;  // 0
+    std::cout << "Числа а и b равны? " << (a == b) << std::endl;           // 0
+    std::cout << "Числа а и b не равны? " << (a != b) << std::endl;        // 1
 }

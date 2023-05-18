@@ -84,7 +84,7 @@ void BCD() {
 //  n - любое положительное число
 void find_fibonacci() {
     int n;
-    std::cin << n;
+    std::cin >> n;
 
     int prev = 0, actual = 1;  // предыдущее число и текущее
     int i = 0;
