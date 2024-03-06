@@ -27,7 +27,7 @@
 </details>
 
 <details>
-<summary>4) Какие есть базовые типы значений в C++ (версия 23)?</summary>
+<summary>4) Какие есть модификаторы в C++?</summary>
 
 **Ответ:** `signed`|`unsigned`, чтобы (не)учитывать знак чисел и `long`|`short`|`long long`, чтобы выделить
 больше(`long`) или меньше (`short`) памяти для числовых типов (`int`, `char`, `double`).
