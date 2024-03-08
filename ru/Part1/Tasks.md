@@ -203,3 +203,22 @@ int main() {
 }
 ```
 </details>
+
+<details>
+<summary>10) Ввести год. Вывести, является ли этот год високосным или нет.</summary>
+
+**Решение:**
+Високосный год - это год, который делится на 4 и не делится на 100, либо делится на 400.
+```c++
+#include <iostream>
+
+int main() {
+    unsigned int year;
+    std::cin >> year;
+    if (!(year % 4) && year % 100 || !(year % 400))
+        std::cout << "Leap";
+    else
+        std::cout << "Not leap";
+}
+```
+</details>
